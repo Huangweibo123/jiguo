@@ -16,16 +16,16 @@ ul{
 // 顶部导航条
 
 .tbdh .logo:hover{
-  animation: xfbs .5s infinite alternate;
+  animation:xfbs  1s ease-in infinite;
 }
 
 @keyframes xfbs{
-  0%{
+  0%,100%{
    opacity: 1;
   }
   
-  100%{
-    opacity: .5;
+  50%{
+    opacity: .6;
   }
 }
 .tbdh{  width: 100%;
@@ -135,7 +135,12 @@ ul{
   justify-content: space-between;
 padding: 30px 0 30px 0;
 .bx{
-.box1{
+  
+  .box2,.box3{
+    display: none;
+  }
+ 
+ .box2,.box3,.box1{
   .djjz{
        width: 100%;
       display: flex;
@@ -175,6 +180,9 @@ li{
   height: 230px;
   margin-bottom: 25px;
   box-sizing: border-box;
+  &:hover img{
+    animation:xfbs  1s ease-in infinite;
+  }
   a{
     display:block;
     width: 220px;

@@ -13,14 +13,15 @@ ul {
   list-style: none;
 }
 .tbdh .logo:hover {
-  animation: xfbs 0.5s infinite alternate;
+  animation: xfbs 1s ease-in infinite;
 }
 @keyframes xfbs {
-  0% {
+  0%,
+  100% {
     opacity: 1;
   }
-  100% {
-    opacity: 0.5;
+  50% {
+    opacity: 0.6;
   }
 }
 .tbdh {
@@ -122,10 +123,18 @@ ul {
   justify-content: space-between;
   padding: 30px 0 30px 0;
 }
+.nrbj .bx .box2,
+.nrbj .bx .box3 {
+  display: none;
+}
+.nrbj .bx .box2 .djjz,
+.nrbj .bx .box3 .djjz,
 .nrbj .bx .box1 .djjz {
   width: 100%;
   display: flex;
 }
+.nrbj .bx .box2 .djjz span,
+.nrbj .bx .box3 .djjz span,
 .nrbj .bx .box1 .djjz span {
   cursor: pointer;
   padding-left: 20px;
@@ -134,6 +143,8 @@ ul {
   margin: 0 auto;
   color: #fe5341;
 }
+.nrbj .bx .box2 .djjz .span,
+.nrbj .bx .box3 .djjz .span,
 .nrbj .bx .box1 .djjz .span {
   padding-left: 20px;
   background: url(../images/loading-icon.gif) no-repeat left center;
@@ -141,6 +152,8 @@ ul {
   display: none;
   margin: 0 auto;
 }
+.nrbj .bx .box2 .zxx,
+.nrbj .bx .box3 .zxx,
 .nrbj .bx .box1 .zxx {
   width: 100%;
   display: flex;
@@ -148,38 +161,89 @@ ul {
   justify-content: space-between;
   align-content: space-between;
 }
+.nrbj .bx .box2 .zxx li,
+.nrbj .bx .box3 .zxx li,
 .nrbj .bx .box1 .zxx li {
-  border: 1px solid #e6e9e9;
-  border-radius: 6px;
-  overflow: hidden;
-  width: 220px;
-  height: 230px;
   margin-bottom: 25px;
-  box-sizing: border-box;
 }
+.nrbj .bx .box2 .zxx li .boxx,
+.nrbj .bx .box3 .zxx li .boxx,
+.nrbj .bx .box1 .zxx li .boxx {
+  height: 13px;
+  overflow: hidden;
+}
+.nrbj .bx .box2 .zxx li .sb,
+.nrbj .bx .box3 .zxx li .sb,
+.nrbj .bx .box1 .zxx li .sb {
+  width: 90%;
+  height: 7px;
+  position: relative;
+  top: -5px;
+  border: 2px solid #e6e9e9;
+  border-radius: 5px;
+  margin: 0 auto;
+  background-color: #fff;
+  z-index: 2;
+}
+.nrbj .bx .box2 .zxx li .xb,
+.nrbj .bx .box3 .zxx li .xb,
+.nrbj .bx .box1 .zxx li .xb {
+  width: 80%;
+  height: 7px;
+  position: relative;
+  top: -10px;
+  border: 2px solid #e6e9e9;
+  border-radius: 5px;
+  margin: 0 auto;
+  background-color: #fff;
+  z-index: 1;
+}
+.nrbj .bx .box2 .zxx li:hover img,
+.nrbj .bx .box3 .zxx li:hover img,
+.nrbj .bx .box1 .zxx li:hover img {
+  animation: xfbs 1s ease-in infinite;
+}
+.nrbj .bx .box2 .zxx li a,
+.nrbj .bx .box3 .zxx li a,
 .nrbj .bx .box1 .zxx li a {
+  z-index: 3 !important;
+  background-color: #fff;
   display: block;
   width: 220px;
   height: 230px;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid #e6e9e9;
+  border-bottom: 2px solid #e6e9e9;
 }
+.nrbj .bx .box2 .zxx li a img,
+.nrbj .bx .box3 .zxx li a img,
 .nrbj .bx .box1 .zxx li a img {
   width: 100%;
   height: 130px;
 }
+.nrbj .bx .box2 .zxx li a .wzbf,
+.nrbj .bx .box3 .zxx li a .wzbf,
 .nrbj .bx .box1 .zxx li a .wzbf {
   position: relative;
   width: 100%;
   padding: 7px;
   box-sizing: border-box;
 }
+.nrbj .bx .box2 .zxx li a .wzbf p,
+.nrbj .bx .box3 .zxx li a .wzbf p,
 .nrbj .bx .box1 .zxx li a .wzbf p {
   font-size: 14px;
   color: #0f0e0e;
 }
+.nrbj .bx .box2 .zxx li a .wzbf span,
+.nrbj .bx .box3 .zxx li a .wzbf span,
 .nrbj .bx .box1 .zxx li a .wzbf span {
   font-size: 12px;
   color: #a3a3a3;
 }
+.nrbj .bx .box2 .zxx li a .wzbf .jg,
+.nrbj .bx .box3 .zxx li a .wzbf .jg,
 .nrbj .bx .box1 .zxx li a .wzbf .jg {
   position: absolute;
   top: 67px;
@@ -187,10 +251,14 @@ ul {
   font-size: 14px;
   display: flex;
 }
+.nrbj .bx .box2 .zxx li a .wzbf .jg div,
+.nrbj .bx .box3 .zxx li a .wzbf .jg div,
 .nrbj .bx .box1 .zxx li a .wzbf .jg div {
-  margin-left: 95px;
+  margin-left: 150px;
   display: flex;
 }
+.nrbj .bx .box2 .zxx li a .wzbf .jg div span:nth-of-type(1),
+.nrbj .bx .box3 .zxx li a .wzbf .jg div span:nth-of-type(1),
 .nrbj .bx .box1 .zxx li a .wzbf .jg div span:nth-of-type(1) {
   width: 21px;
   height: 21px;
@@ -198,6 +266,8 @@ ul {
   text-indent: 15px;
   background: url(../images/xin.png) no-repeat left center;
 }
+.nrbj .bx .box2 .zxx li a .wzbf .jg div span:nth-of-type(2),
+.nrbj .bx .box3 .zxx li a .wzbf .jg div span:nth-of-type(2),
 .nrbj .bx .box1 .zxx li a .wzbf .jg div span:nth-of-type(2) {
   width: 21px;
   height: 21px;
