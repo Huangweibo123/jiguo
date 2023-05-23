@@ -21,7 +21,7 @@ ajax_.onreadystatechange = function () {
       for (var items of item) {
         str += `
         <li>
-        <a href="#">
+        <a href="./shiyongxiangqing.html">
           <img src="${items.img}" alt="" />
           <div class="wzbf">
             <p>${items.text}</p>
@@ -64,7 +64,7 @@ ajax1.onreadystatechange = function () {
       for (var items1 of item1) {
         str1 += `
         <li>
-        <a href="#">
+        <a href="./shiyongxiangqing.html">
           <img src="${items1.img}" alt="" />
           <div class="wzbf">
             <p>${items1.text}</p>
@@ -107,7 +107,7 @@ ajax2.onreadystatechange = function () {
       for (var items2 of item2) {
         str2 += `
         <li>
-        <a href="#">
+        <a href="./shiyongxiangqing.html">
           <img src="${items2.img}" alt="" />
           <div class="wzbf">
             <p>${items2.text}</p>

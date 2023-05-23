@@ -15,6 +15,104 @@ ul {
 /*顶部导航条*/
 .tbdh .logo:hover {
   animation: xfbs 1s ease-in infinite;
+} /* 底部 */
+.ff1 {
+  width: 100%;
+  height: 361px;
+  background-color: #505050;
+  overflow: hidden;
+  position: relative;
+}
+
+.ff2 {
+  width: 65%;
+  height: 296px;
+  /* background-color: aqua; */
+  margin: 30px auto;
+}
+
+.dl1 img {
+  border-radius: 5px;
+  width: 160px;
+  height: 160px;
+}
+
+dl {
+  float: left;
+}
+
+dd {
+  font-size: 12px;
+  color: #a3a3a3;
+}
+
+.dl1 {
+  margin-right: 20px;
+}
+
+.dl2 {
+  width: 142px;
+  height: 164px;
+  margin-top: 3px;
+}
+
+.dd1 {
+  margin-top: 30px;
+}
+
+.tt2 {
+  color: #fff;
+}
+
+.ddd3 {
+  width: 112px;
+  height: 85px;
+}
+
+.tt1 img {
+  width: 121px;
+  height: 46px;
+}
+
+.dd3 {
+  margin-top: 50px;
+}
+
+.ddd5 {
+  width: 140px;
+}
+
+.dd4 {
+  width: 140px;
+  margin-top: 3px;
+}
+
+.dd4:nth-of-type(1) {
+  margin-top: 50px;
+}
+
+.ss1 {
+  display: inline-block;
+  width: 48%;
+}
+
+.dd5 a {
+  color: #a3a3a3;
+}
+
+.dd6 {
+  margin-left: 15px;
+}
+
+.ppp4 {
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  /* background-color: red; */
+  position: absolute;
+  bottom: 11px;
+  color: #a3a3a3;
+  font-size: 13px;
 }
 @keyframes xfbs {
   0%,
@@ -76,7 +174,7 @@ ul {
 .tbdh .bx .dbul a {
   transition: color 0.2s ease;
   font-size: 20px;
-  color: #33335A;
+  color: #33335a;
 }
 .tbdh .bx .dbul a:hover {
   color: #fe5341;
@@ -96,7 +194,7 @@ ul {
 .bjys {
   width: 100%;
   height: auto;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 .bjys .bx {
   overflow: hidden;
@@ -105,7 +203,7 @@ ul {
   margin: 25px 0 25px 0;
   width: 100%;
   height: 784px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 8px;
   box-sizing: border-box;
   border: 1px #d7d7d7 solid;
@@ -116,7 +214,7 @@ ul {
   font-size: 20px;
   font-weight: 400;
   color: #474747;
-  border-left: 6px solid #FE5341;
+  border-left: 6px solid #fe5341;
 }
 .bjys .bx .nr .zzbd {
   width: 400px;
@@ -148,13 +246,13 @@ ul {
   box-sizing: border-box;
   border: 1px #eee solid;
   border-radius: 10px;
-  background-color: #FE5341;
+  background-color: #fe5341;
   color: #fff;
   cursor: pointer;
   font-size: 18px;
 }
 .bjys .bx .nr .zzbd p .ljzc:hover {
-  background-color: #FD301B;
+  background-color: #fd301b;
 }
 .bjys .bx .nr .zzbd p:nth-of-type(2) img {
   position: relative;
@@ -162,7 +260,7 @@ ul {
   left: 25px;
 }
 .bjys .bx .nr .zzbd p:nth-of-type(2) input {
-  width: 245px ;
+  width: 245px;
 }
 .bjys .bx .nr .zzbd p:nth-of-type(3) button {
   display: inline-block;
@@ -182,5 +280,5 @@ ul {
   text-align: center;
 }
 .bjys .bx .nr .zzbd p:nth-of-type(3) input {
-  width: 245px ;
+  width: 245px;
 }

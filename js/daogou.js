@@ -20,7 +20,7 @@ ajax_.onreadystatechange = function () {
     for (var items of data) {
       str += `
         <li>
-        <a href="#">
+        <a href="./gangbi.html">
           <img src="${items.img}" alt="" />
           <div class="wzbf">
             <p>${items.text}</p>
@@ -65,7 +65,7 @@ ajax1.onreadystatechange = function () {
     for (var items1 of data1) {
       str1 += `
         <li>
-        <a href="#">
+        <a href="./gangbi.html">
           <img src="${items1.img}" alt="" />
           <div class="wzbf">
             <p>${items1.text}</p>
