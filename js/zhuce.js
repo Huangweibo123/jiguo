@@ -35,7 +35,7 @@ function sub() {
 var sjh = document.querySelector("#sjh");
 var tpxy = document.querySelector("#tpxy");
 var yzm = document.querySelector("#yzm");
-localStorage.setItem = `sjh=${sjh.value};
+sessionstrorage.setItem = `sjh=${sjh.value};
  tpxy=${tpxy.value};
  yzm=${yzm.value};
 `;
