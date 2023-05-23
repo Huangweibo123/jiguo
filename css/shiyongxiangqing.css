@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bx {
+    width: 65%;
+    margin: 0 auto;
+  }
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+  }
+  .tbdh .logo:hover {
+    animation: xfbs 0.5s infinite alternate;
+  }
+  @keyframes xfbs {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.5;
+    }
+  }
+  .tbdh {
+    width: 100%;
+    height: 76px;
+    border-bottom: 1px solid #cecfcf;
+    box-shadow: 0 0 5px #cecfcf inset;
+    display: flex;
+    align-items: center;
+  }
+  .tbdh .bx {
+    display: flex;
+    align-items: center;
+  }
+  .tbdh .bx .yb {
+    margin-left: 280px;
+    display: flex;
+  }
+  .tbdh .bx .yb a:nth-of-type(2) {
+    transition: all 0.15s linear;
+    margin-left: 30px;
+    color: #fe5341;
+    font-size: 16px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3px;
+    border: 1px #fe5341 solid;
+  }
+  .tbdh .bx .yb a:nth-of-type(2):hover {
+    color: #f9fbfd;
+    background-color: #fe5341;
+  }
+  .tbdh .bx .yb a img {
+    width: 24px;
+    height: 26px;
+    transition: all 0.3s;
+    margin-top: 3px;
+  }
+  .tbdh .bx .yb a img:hover {
+    transform: scale(1.2);
+  }
+  .tbdh .bx .dbul {
+    width: 450px;
+    height: 32px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+  }
+  .tbdh .bx .dbul a {
+    transition: color 0.2s ease;
+    font-size: 20px;
+    color: #33335A;
+  }
+  .tbdh .bx .dbul a:hover {
+    color: #fe5341;
+  }
+  .tbdh .bx .dbul .on a {
+    color: #fe5341;
+  }
+  .tbdh .bx .logo {
+    width: 132px;
+    height: 50px;
+    display: inline-block;
+  }
+  .tbdh .bx .logo img {
+    width: 132px;
+    height: 50px;
+  }
+
+  .first {
+    height: 300px;
+    background: url(../images/original.jpg) no-repeat center top;
+    overflow: hidden;
+    /* padding-top: 50px; */
+    
+  }
+  .first .David {
+    width: 350px;
+    height: 250px;
+    float: right;
+    margin-right: 330px;
+    margin-top: 50px;
+    /* transform: translate(100%, -100%); */
+    /* transition: transform 1s ease-in-out; */
+  }
+  .first .David h1 {
+    color: white;
+    font-weight: 500;
+    float: right;
+  }
+  .first .David .apply {
+    float: right;
+    margin-top: 20px;
+  }
+  .first .David .apply span {
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    background: rgba(255, 255, 255, 0.3);
+    margin-right: 10px;
+  }
+  .first .David p {
+    float: right;
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+  }
+  .first .David .apply-for {
+    width: 240px;
+    height: 50px;
+    background-color: #fe5341;
+    border-radius: 5px;
+    float: right;
+    margin-top: 20px;
+  }
+  .first .David .apply-for:hover {
+    cursor: pointer;
+  }
+  .first .David .apply-for span {
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 35%;
+  }
+  .Trial-process{
+    width: 100%;
+    overflow: hidden;
+  }
+.product-presentation{
+    width: 60%;
+    /* height: 800px; */
+    margin-left: 290px;
+    background-color: #cecfcf;
+}
+.Cybernetics-Core{
+    width: 75%;
+    /* height: 800px; */
+    /* background-color: #fe5341; */
+    float: left;
+}
+.purchase-channel{
+width: 25%;
+/* height: 800px; */
+float: right;
+/* background-color: aqua; */
+}
+.presentation{
+    display: block;
+    width: 6px;
+    height: 28px;
+    background-color: #fe5341;
+    float: left;
+}
+.Cybernetics-Core>h2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.Cybernetics-Core>h3{
+    font-size: 20px;
+    color: red;
+    font-size: 18px;
+}
+.Cybernetics-Core>h4{
+    color: #0070C4;
+}
+.throttle{
+    color: #0177BB;
+}
+#activities{
+    color: red;
+}
+.Cybernetics-Core>p>span{
+    font-weight: 600;
+}
+.purchase-channel>h2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.Forty-nine-nine{
+    color: red;
+    font-size: 40px;
+}
+.Click-to-buy{
+    width: 100%;
+    height: 50px;
+    background-color: #FE5341;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 18px;
+}
+.Click-to-buy:hover{
+    cursor: pointer;
+    background-color: #F3250F;
+}
+.Ultra{
+    text-align: center;
+    font-size: 14px;
+    color: rgb(182, 179, 179);
+}
