@@ -39,22 +39,41 @@ e3[1].onclick = function () {
 }
 e5[0].onclick = function () {
     e4[0].style.display = 'block';
+    this.classList.add('a7')
+    e5[1].classList.remove('a7')
+    e5[2].classList.remove('a7')
+    e5[3].classList.remove('a7')
 }
 e5[1].onclick = function () {
     e4[0].style.display = 'none'
     e4[1].style.display = 'block';
+    this.classList.add('a7')
+    e5[0].classList.remove('a7')
+    e5[2].classList.remove('a7')
+    e5[3].classList.remove('a7')
+
+
 }
 e5[2].onclick = function () {
     e4[0].style.display = 'none'
     e4[1].style.display = 'none'
     e4[2].style.display = 'block';
-    console.log(e4[2]);
+    this.classList.add('a7')
+    e5[1].classList.remove('a7')
+    e5[0].classList.remove('a7')
+    e5[3].classList.remove('a7')
+
 }
 e5[3].onclick = function () {
     e4[0].style.display = 'none'
     e4[1].style.display = 'none'
     e4[2].style.display = 'none'
     e4[3].style.display = 'block';
-    console.log(e4[2]);
+    this.classList.add('a7')
+    e5[1].classList.remove('a7')
+    e5[2].classList.remove('a7')
+    e5[0].classList.remove('a7')
+
 }
-// 底部
+
+
