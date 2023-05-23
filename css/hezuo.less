@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .bx{
+    width: 65%;
+    margin: 0 auto;
+  }
+  a{
+    text-decoration: none;
+  }
+  ul{
+    list-style: none;
+  }
+  
+  // 顶部导航条
+  
+  .tbdh .logo:hover{
+    animation:xfbs  1s ease-in infinite;
+  }
+  
+  @keyframes xfbs{
+    0%,100%{
+     opacity: 1;
+    }
+    
+    50%{
+      opacity: .6;
+    }
+  }
+  .tbdh{  width: 100%;
+    height: 76px;
+      border-bottom: 1px solid #cecfcf;
+      box-shadow: 0 0 5px #cecfcf inset;
+      display: flex;
+      align-items: center;
+      .bx{
+        display: flex;
+       align-items: center;
+      .yb{
+        margin-left: 280px;
+        display: flex;
+        
+        a:nth-of-type(2){
+        transition: all 0.15s linear;
+        margin-left: 30px;
+        color: #fe5341;
+        font-size: 16px;
+        width: 50px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 3px;
+        border: 1px #fe5341 solid;
+       }
+       a:nth-of-type(2):hover{
+        color: rgb(249, 251, 253);
+      background-color: #fe5341;
+       }
+       
+       a img{
+        width: 24px;
+        height: 26px;
+        transition: all .3s ;
+        margin-top: 3px;
+       }
+       a img:hover{
+        transform: scale(1.2);
+       }
+      }
+       
+      .dbul{
+        display: flex;
+        width: 450px;
+        height: 32px;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 30px;
+        
+        a{
+          transition: color 0.2s ease;
+          font-size: 20px;
+          color: #33335A;
+        }
+        a:hover{
+          color: #fe5341;
+        }
+        .on a{
+          color: #fe5341;
+        }
+      }
+      .logo{
+        width: 132px;
+        height: 50px;
+        display: inline-block;
+        img{
+          width: 132px;
+          height: 50px;
+        }
+      }
+      }
+  }
+//  顶部结束
+.tptp{
+    width: 100%;
+    height: 2440px;
+    background: url(../images/QQ截图20230523140802.bmp)no-repeat;
+    background-size: 100% 100%;
+
+}
